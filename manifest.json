@@ -1,0 +1,16 @@
+{
+  "name": "no means NO!",
+  "version": "1.0",
+  "description": "NO!",
+ // "permissions": ["activeTab","declarativeContent","storage"], 
+"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["background.js"],
+			"run_at": "document_end"
+		}
+	],
+"author":"anthony ynami",
+  "manifest_version": 2
+}
