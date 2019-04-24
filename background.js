@@ -64,7 +64,7 @@ function noify(text) {
 //	// Deal with the rest of the clouds
 //	if(text.match(/cloud/i)) {
 
-		text = text.replace(/(n)o/i, function(match) {
+		text = text.replace(/(n)o /i, function(match) {
 			
 			return "NO!"
             
